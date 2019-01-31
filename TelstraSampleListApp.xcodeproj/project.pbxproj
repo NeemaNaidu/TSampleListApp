@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28025E752202C2D2004366F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28025E742202C2D2004366F9 /* AppDelegate.swift */; };
+		28025E772202C2D2004366F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28025E762202C2D2004366F9 /* ViewController.swift */; };
+		28025E7A2202C2D3004366F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28025E782202C2D2004366F9 /* Main.storyboard */; };
+		28025E7C2202C2F9004366F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28025E7B2202C2F9004366F9 /* Assets.xcassets */; };
+		28025E7F2202C2F9004366F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28025E7D2202C2F9004366F9 /* LaunchScreen.storyboard */; };
+		28025E8A2202C2F9004366F9 /* TelstraSampleListAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28025E892202C2F9004366F9 /* TelstraSampleListAppTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28025E862202C2F9004366F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28025E692202C2D2004366F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28025E702202C2D2004366F9;
+			remoteInfo = TelstraSampleListApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		28025E712202C2D2004366F9 /* TelstraSampleListApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TelstraSampleListApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28025E742202C2D2004366F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		28025E762202C2D2004366F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		28025E792202C2D2004366F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		28025E7B2202C2F9004366F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28025E7E2202C2F9004366F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		28025E802202C2F9004366F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28025E852202C2F9004366F9 /* TelstraSampleListAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TelstraSampleListAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28025E892202C2F9004366F9 /* TelstraSampleListAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelstraSampleListAppTests.swift; sourceTree = "<group>"; };
+		28025E8B2202C2F9004366F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28025E6E2202C2D2004366F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28025E822202C2F9004366F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28025E682202C2D2004366F9 = {
+			isa = PBXGroup;
+			children = (
+				28025E732202C2D2004366F9 /* TelstraSampleListApp */,
+				28025E882202C2F9004366F9 /* TelstraSampleListAppTests */,
+				28025E722202C2D2004366F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28025E722202C2D2004366F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28025E712202C2D2004366F9 /* TelstraSampleListApp.app */,
+				28025E852202C2F9004366F9 /* TelstraSampleListAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28025E732202C2D2004366F9 /* TelstraSampleListApp */ = {
+			isa = PBXGroup;
+			children = (
+				28025E742202C2D2004366F9 /* AppDelegate.swift */,
+				28025E762202C2D2004366F9 /* ViewController.swift */,
+				28025E782202C2D2004366F9 /* Main.storyboard */,
+				28025E7B2202C2F9004366F9 /* Assets.xcassets */,
+				28025E7D2202C2F9004366F9 /* LaunchScreen.storyboard */,
+				28025E802202C2F9004366F9 /* Info.plist */,
+			);
+			path = TelstraSampleListApp;
+			sourceTree = "<group>";
+		};
+		28025E882202C2F9004366F9 /* TelstraSampleListAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				28025E892202C2F9004366F9 /* TelstraSampleListAppTests.swift */,
+				28025E8B2202C2F9004366F9 /* Info.plist */,
+			);
+			path = TelstraSampleListAppTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28025E702202C2D2004366F9 /* TelstraSampleListApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28025E8E2202C2F9004366F9 /* Build configuration list for PBXNativeTarget "TelstraSampleListApp" */;
+			buildPhases = (
+				28025E6D2202C2D2004366F9 /* Sources */,
+				28025E6E2202C2D2004366F9 /* Frameworks */,
+				28025E6F2202C2D2004366F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TelstraSampleListApp;
+			productName = TelstraSampleListApp;
+			productReference = 28025E712202C2D2004366F9 /* TelstraSampleListApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		28025E842202C2F9004366F9 /* TelstraSampleListAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28025E912202C2F9004366F9 /* Build configuration list for PBXNativeTarget "TelstraSampleListAppTests" */;
+			buildPhases = (
+				28025E812202C2F9004366F9 /* Sources */,
+				28025E822202C2F9004366F9 /* Frameworks */,
+				28025E832202C2F9004366F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28025E872202C2F9004366F9 /* PBXTargetDependency */,
+			);
+			name = TelstraSampleListAppTests;
+			productName = TelstraSampleListAppTests;
+			productReference = 28025E852202C2F9004366F9 /* TelstraSampleListAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28025E692202C2D2004366F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = cts;
+				TargetAttributes = {
+					28025E702202C2D2004366F9 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					28025E842202C2F9004366F9 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 28025E702202C2D2004366F9;
+					};
+				};
+			};
+			buildConfigurationList = 28025E6C2202C2D2004366F9 /* Build configuration list for PBXProject "TelstraSampleListApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28025E682202C2D2004366F9;
+			productRefGroup = 28025E722202C2D2004366F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28025E702202C2D2004366F9 /* TelstraSampleListApp */,
+				28025E842202C2F9004366F9 /* TelstraSampleListAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28025E6F2202C2D2004366F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28025E7F2202C2F9004366F9 /* LaunchScreen.storyboard in Resources */,
+				28025E7C2202C2F9004366F9 /* Assets.xcassets in Resources */,
+				28025E7A2202C2D3004366F9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28025E832202C2F9004366F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28025E6D2202C2D2004366F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28025E772202C2D2004366F9 /* ViewController.swift in Sources */,
+				28025E752202C2D2004366F9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28025E812202C2F9004366F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28025E8A2202C2F9004366F9 /* TelstraSampleListAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28025E872202C2F9004366F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28025E702202C2D2004366F9 /* TelstraSampleListApp */;
+			targetProxy = 28025E862202C2F9004366F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		28025E782202C2D2004366F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28025E792202C2D2004366F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		28025E7D2202C2F9004366F9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28025E7E2202C2F9004366F9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28025E8C2202C2F9004366F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		28025E8D2202C2F9004366F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28025E8F2202C2F9004366F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TelstraSampleListApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cts.TelstraSampleListApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		28025E902202C2F9004366F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TelstraSampleListApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cts.TelstraSampleListApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		28025E922202C2F9004366F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TelstraSampleListAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cts.TelstraSampleListAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TelstraSampleListApp.app/TelstraSampleListApp";
+			};
+			name = Debug;
+		};
+		28025E932202C2F9004366F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TelstraSampleListAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cts.TelstraSampleListAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TelstraSampleListApp.app/TelstraSampleListApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28025E6C2202C2D2004366F9 /* Build configuration list for PBXProject "TelstraSampleListApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28025E8C2202C2F9004366F9 /* Debug */,
+				28025E8D2202C2F9004366F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28025E8E2202C2F9004366F9 /* Build configuration list for PBXNativeTarget "TelstraSampleListApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28025E8F2202C2F9004366F9 /* Debug */,
+				28025E902202C2F9004366F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28025E912202C2F9004366F9 /* Build configuration list for PBXNativeTarget "TelstraSampleListAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28025E922202C2F9004366F9 /* Debug */,
+				28025E932202C2F9004366F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28025E692202C2D2004366F9 /* Project object */;
+}
